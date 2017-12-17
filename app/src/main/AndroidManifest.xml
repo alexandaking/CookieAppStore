@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alexandaking.myappstore">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".base.StoreApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mvp.view.activity.HomeActivity" />
+        <activity
+            android:name=".mvp.view.activity.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mvp.view.activity.AppDetailActivity" />
+        <activity android:name=".mvp.view.activity.GalleryDetailActivity" />
+        <activity android:name=".mvp.view.activity.AppMoreRecommendActivity" />
+        <activity android:name=".mvp.view.activity.CategorySubscribeActivity" />
+        <activity android:name=".mvp.view.activity.CategoryNecessaryActivity" />
+        <activity android:name=".mvp.view.activity.CategoryNewActivity" />
+        <activity android:name=".mvp.view.activity.CategorySubjectActivity" />
+        <activity android:name=".mvp.view.activity.CategoryToolActivity" />
+        <activity android:name=".mvp.view.activity.WebViewActivity" />
+        <activity android:name=".mvp.view.activity.InstallAppInfoActivity" />
+        <activity android:name=".mvp.view.activity.ApkManagementActivity" />
+        <activity android:name=".mvp.view.activity.CleanCacheActivity"/>
+    </application>
+
+</manifest>

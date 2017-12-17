@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgound_fcfcfc">
+
+    <com.alexandaking.myappstore.widget.CustomVideoView
+        android:id="@+id/welcome_videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:background="@drawable/dialog_button_select"
+        android:text="@string/gotoappcenter"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/CS_white"
+        android:textSize="@dimen/res_textsize_14dp"
+        android:layout_marginBottom="30.0dip" />
+
+</RelativeLayout>
