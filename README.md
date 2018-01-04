@@ -1,6 +1,6 @@
 # CookieAppStore
 
-'RxJava' 'Retrofit' 'Dagger2' 'MVP'
+`RxJava` `Retrofit` `Dagger2` `MVP` 
 
 ## Features
 ### 一款应用商店，主要功能:
