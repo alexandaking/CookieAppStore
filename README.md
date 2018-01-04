@@ -1,22 +1,17 @@
 # CookieAppStore
 
-[![Project License](https://img.shields.io/badge/license-Apache--2.0-blue.svg?style=flat-square)](LICENSE)
-[![Build Status](https://travis-ci.org/d4rken/reddit-android-appstore.svg?branch=dev)](https://travis-ci.org/d4rken/reddit-android-appstore)
-[![Coverage Status](https://coveralls.io/repos/github/d4rken/reddit-android-appstore/badge.svg)](https://coveralls.io/github/d4rken/reddit-android-appstore)
-
-一款应用商店，主要功能有：应用分类，应用下载排行，管理手机中已经安装的应用和空间清理，个人信息相关展示。应用详细信息以及下载功能，用户评论打分。相关应用推荐。管理手机中已经安装的应用（打开，卸载，管理）。管理手机中应用的缓存数据（清理缓存）
-
-App inspired by [this reddit post](https://redd.it/50rafp)
-
-Displays the curated app list from the [/r/Android wiki](https://www.reddit.com/r/android/wiki/apps).
 
 ## Features
-* Filter by category (Apps, Games, etc.) and traits (New, Free, Phone, Wear, etc.)
-* Search through the apps list
-* View screenshots and read brief summaries of each app
-* Go straight to each app's download page
-* Night and AMOLED themes
-* ...and more!
+### 一款应用商店，主要功能:
+* 主要功能有应用分类
+* 应用下载排行
+* 管理手机中已经安装的应用和空间清理
+* 应用详细信息以及下载功能
+* 用户评论打分
+* 相关应用推荐
+* 管理手机中已经安装的应用（打开，卸载，管理）
+* 管理手机中应用的缓存数据（清理缓存）
+* ...and more
 
 ## Screenshots
 From commit [269d4fa](https://github.com/d4rken/reddit-android-appstore/commit/269d4fab0fd2a4553c7d51dcaaf5da82de3883a3)
